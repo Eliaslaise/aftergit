@@ -31,4 +31,10 @@ h1, h2, h4 {
 h1{
     font-size: 3rem;
     text-align: center;
+    transition: all .6s;
+}
+
+h1:hover{
+    font-size: 3.2rem;
+    color: lime;
 }
